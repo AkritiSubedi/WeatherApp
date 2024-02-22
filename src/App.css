@@ -1,0 +1,112 @@
+*body{
+    margin: 0px;
+    padding: 0px;
+ }
+.maincontainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px; 
+    width: 100%;
+    max-width: 1000px;
+   
+}
+.secondcontainer{
+    flex-wrap: wrap;
+    max-width: 100%;
+    min-width: 200px;
+    height: 650px;
+    border-radius: 25px;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(39, 39, 233);
+    font-size: clamp(2px, 2vw, 25px) 
+}
+.search-box{
+    display: flex;
+    padding-top: 34px;
+    margin: 12px;
+    justify-content: center;
+    
+}
+.search{
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    width: 300px;
+    height:50px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    outline: none;
+    border-bottom: 2px solid black;
+    background: #ffffff;
+    font-weight: 500;
+    padding-left: 30px;
+}
+
+.sicon{
+
+    border-radius: 40px;
+    height: 60px;
+    width: 60px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+h{
+    text-align: center;
+    color: #f1ebeb;
+    font-size: 50px;
+}
+p{
+    text-align: center;
+    color: #f1ebeb;
+    font-size: 30px;
+}
+.sky{
+height: 200px;
+justify-content: center;
+}
+.lcontainer{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap:12px;
+    line-height: 0px;
+}
+.humidity{
+    color:#f1ebeb;
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    line-height: 0%;
+    margin-left: 10px;
+}
+.ihumidity{
+    display: grid;
+    
+}
+.humidity-percentage{
+    margin-top: 5%;
+}
+.speed{
+    color: #f1ebeb;
+    height: 60px;
+    display: flex;
+    justify-content: right;
+    line-height:0%;
+    margin-right: 10px;
+}
+.ispeed{
+    display: grid;
+    margin-bottom: 30px;
+}
+.wind-rate{
+    margin-top: 5%;
+}
+.pa{
+    font-size: 25px;
+    margin-left: 10px;
+    margin-top: 10%;
+}
+
