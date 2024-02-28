@@ -29,7 +29,7 @@ function App() {
       return;
     }
 
-    const url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${api_key}`;
+    const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${api_key}`;
 
     const response = await fetch(url);
     if (!response.ok) {
@@ -51,7 +51,7 @@ function App() {
       setImage(clear_icon);
     } else if (temp <= 15 || temp >= 1) {
       setImage(rain_icon);
-    }else if (temp <=7 && temp >=-20){
+    } else if (temp <= 7 && temp >= -20) {
       setImage(snow_icon);
     }
     // else {
