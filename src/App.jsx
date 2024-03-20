@@ -10,6 +10,7 @@ import humidity_icon from "/humidity.png";
 function App() {
   const [weatherData, setWeatherData] = useState(null);
   const [image, setImage] = useState(null);
+  const [containerStyle, setContainerStyle] = useState({});
 
   const api_key = "290855c78c8a87c74808c28010980ae4";
 
@@ -45,10 +46,13 @@ function App() {
     } else if (temp <= 7 && temp >= -20) {
       setImage(snow_icon);
     }
+
+    // Adjust container size
+    setContainerStyle({ height: "auto" });
   };
 
   return (
-    <div className="maincontainer">
+    <div className="maincontainer" style={containerStyle}>
       <div className="secondcontainer">
         <div class="search-box">
           <input className="search" type="text" placeholder="Search" />
