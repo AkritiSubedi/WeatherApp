@@ -8,13 +8,15 @@
     margin-top: 50px; 
     width: 100%;
     max-width: 1000px;
+    max-height: 1000vh;
+    height: 100%;
    
 }
 .secondcontainer{
     flex-wrap: wrap;
     max-width: 100%;
     min-width: 200px;
-    height: 650px;
+   
     border-radius: 25px;
     text-align: center;
     justify-content: center;
@@ -96,6 +98,7 @@ justify-content: center;
     justify-content: right;
     line-height:0%;
     margin-right: 10px;
+    margin-bottom: 50px;
 }
 .ispeed{
     display: grid;
@@ -105,8 +108,12 @@ justify-content: center;
     margin-top: 5%;
 }
 .pa{
-    font-size: 25px;
+    font-size: 1rem;
     margin-left: 10px;
     margin-top: 10%;
+    
+}
+.icon1{
+    font-size: 2rem;
 }
 
